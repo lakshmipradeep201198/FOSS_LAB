@@ -1,0 +1,30 @@
+[3;J[H[2J Enter one no.
+Enter second no.
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter your choice
+Sum =50
+Do u want to continue ?
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter your choice
+Sub = 40
+Do u want to continue ?
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter your choice
+Mul = 225
+Do u want to continue ?
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter your choice
+Div = 9
+Do u want to continue ?
