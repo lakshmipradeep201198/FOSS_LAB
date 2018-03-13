@@ -1,17 +1,225 @@
-Computer CPU information like processor type, speed : Architecture:          i686
-CPU op-mode(s):        32-bit, 64-bit
-CPU(s):                1
-Thread(s) per core:    1
-Core(s) per socket:    1
-CPU socket(s):         1
-Vendor ID:             GenuineIntel
-CPU family:            15
-Model:                 4
-Stepping:              3
-CPU MHz:               2992.525
-L1d cache:             16K
-L2 cache:              2048K
-Memory information :              total       used       free     shared    buffers     cached
-Mem:           748        614        133          0         70        299
--/+ buffers/cache:        244        504
-Swap:         1905          0       1905
+Computer CPU information like processor type, speed : Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  2
+Core(s) per socket:  2
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               78
+Model name:          Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+Stepping:            3
+CPU MHz:             2000.000
+CPU max MHz:         2000.0000
+CPU min MHz:         400.0000
+BogoMIPS:            3984.00
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            3072K
+NUMA node0 CPU(s):   0-3
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti retpoline intel_pt rsb_ctxsw tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+Compter CPU information like processor type , speed : echo # dmidecode 3.1
+Getting SMBIOS data from sysfs.
+SMBIOS 3.0.0 present.
+
+Handle 0x0004, DMI type 4, 48 bytes
+Processor Information
+	Socket Designation: U3E1
+	Type: Central Processor
+	Family: Core i3
+	Manufacturer: Intel(R) Corporation
+	ID: E3 06 04 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 78, Stepping 3
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+	Voltage: 0.8 V
+	External Clock: 100 MHz
+	Max Speed: 8300 MHz
+	Current Speed: 2000 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+	L1 Cache Handle: 0x0006
+	L2 Cache Handle: 0x0007
+	L3 Cache Handle: 0x0008
+	Serial Number: To Be Filled By O.E.M.
+	Asset Tag: To Be Filled By O.E.M.
+	Part Number: To Be Filled By O.E.M.
+	Core Count: 2
+	Core Enabled: 2
+	Thread Count: 4
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Hardware Thread
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+Memory information :               total        used        free      shared  buff/cache   available
+Mem:           3818        1926         418         333        1474        1803
+Swap:         11442           0       11442
+All available shells : cat /etc/shells
+Mouse settings : echo ⎡ Virtual core pointer                    	id=2	[master pointer  (3)]
+⎜   ↳ Virtual core XTEST pointer              	id=4	[slave  pointer  (2)]
+⎜   ↳ xwayland-pointer:13                     	id=6	[slave  pointer  (2)]
+⎜   ↳ xwayland-relative-pointer:13            	id=7	[slave  pointer  (2)]
+⎣ Virtual core keyboard                   	id=3	[master keyboard (2)]
+    ↳ Virtual core XTEST keyboard             	id=5	[slave  keyboard (3)]
+    ↳ xwayland-keyboard:13                    	id=8	[slave  keyboard (3)]
+Hard disk information : echo # dmidecode 3.1
+Getting SMBIOS data from sysfs.
+SMBIOS 3.0.0 present.
+
+Handle 0x000F, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 32 GB
+	Error Information Handle: No Error
+	Number Of Devices: 2
+
+Handle 0x0010, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x000F
+	Error Information Handle: No Error
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: Unknown
+	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Clock Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+
+Handle 0x0011, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x000F
+	Error Information Handle: No Error
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: ChannelA-DIMM1
+	Bank Locator: BANK 1
+	Type: Unknown
+	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Clock Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+
+Handle 0x0012, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x000F
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: ChannelB-DIMM0
+	Bank Locator: BANK 2
+	Type: DDR4
+	Type Detail: Synchronous
+	Speed: 2133 MT/s
+	Manufacturer: Micron
+	Serial Number: 19112523
+	Asset Tag: 9876543210
+	Part Number: 4ATF51264HZ-2G3B1   
+	Rank: 1
+	Configured Clock Speed: 2133 MT/s
+	Minimum Voltage: 1.25 V
+	Maximum Voltage: 1.5 V
+	Configured Voltage: 1.2 V
+
+Handle 0x0013, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x000F
+	Error Information Handle: No Error
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: ChannelB-DIMM1
+	Bank Locator: BANK 3
+	Type: Unknown
+	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Clock Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+File system (Mounted) : echo Disk /dev/sda: 931.5 GiB, 1000204886016 bytes, 1953525168 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: gpt
+Disk identifier: DBCCF2DC-676C-4FE1-B012-522B71367B9F
+
+Device          Start        End   Sectors   Size Type
+/dev/sda1        2048     206847    204800   100M EFI System
+/dev/sda2      206848     239615     32768    16M Microsoft reserved
+/dev/sda3      239616  257622015 257382400 122.7G Microsoft basic data
+/dev/sda4   257622016 1132224511 874602496   417G Microsoft basic data
+/dev/sda5  1132224512 1718162011 585937500 279.4G Microsoft basic data
+/dev/sda6  1930088448 1953523711  23435264  11.2G Linux swap
+/dev/sda7  1718163456 1930088447 211924992 101.1G Linux filesystem
+
+Partition table entries are not in disk order.
