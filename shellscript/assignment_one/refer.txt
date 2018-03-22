@@ -1,0 +1,16 @@
+ASSIGNMENT 1
+
+COMMANDS USED
+
+
+1. pdftotext -layout file.pdf file.txt                                  -> used to convert pdf file into text file and maintain the same format of appearance of the initial pdf file .
+
+2. grep -A 1 "to be searched for" file1.pdf >file2.txt                  -> used to search and copy the "to be serched for" from file1 and store it to file2 (-A 1 helps to get the line just below the "to be searched for"
+
+3. sed -i 's/"what is to be deleted"/"with what to replace"/g' file.txt ->used to replace one text with another
+
+4. tr -d "\n" <set1> set2                                                ->to delete character in set1 and put to set2
+
+5. awk '{print($"column_number"...)} file1.txt >file2.txt                ->to print column wise or do calculations on columns of file1 and put to file2
+
+6. join -'fileno.' 'columnnumber' -'fileno2' -'columnno'                 ->use to join file1 and file2 with respect to the columnnumber specified in each
