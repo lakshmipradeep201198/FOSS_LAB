@@ -1,0 +1,7 @@
+if config -a (list all existing networks supported)
+sudo ifconfig enp4s0f1 192.168.1.215(e is used if ether net is used.else the network starting with w has to be chosen for wifi) 
+sudo ifconfig enp4s0f1 netmask 255.255.252.0
+route -n
+sudo route add default gateway 192.168.0.8
+
+//net access was permitted
