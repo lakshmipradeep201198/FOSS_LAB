@@ -1,0 +1,34 @@
+#	update software package
+
+sudo apt update
+
+sudo apt upgrade
+
+#	install apache web server
+
+sudo apt install -y apache2 apache2-utils
+
+//chechk status using	------>    systemctl status apache2
+//check version using   ------>    apache2 -v
+
+(type localhost in web browser to get the 'it works' page)
+
+#	install MariaDB
+
+sudo apt install mariadb-server mariadb-client
+//check status using   ------->    systemctl status mariadb
+
+//set root password
+
+#	install php
+
+sudo apt install php7.1 libapache2-mod-php7.1 php7.1-mysql php-common php7.1-cli php7.1-common php7.1-json php7.1-opcache php7.1-readline
+
+//enable and restart apache  ------->    sudo a2enmod php7.1
+
+                                         sudo systemctl restart apache2
+
+//create info.php     -------->   sudo nano /var/www/html/info.php
+(in info.php paste --->  <?php phpinfo(); ?>)
+save and close 
+then open web browser and type localhost to get confirmation page for php
